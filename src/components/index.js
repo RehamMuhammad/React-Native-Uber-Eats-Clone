@@ -1,1 +1,2 @@
-export * from "./headerTabs"
+export * from "./HeaderTabs";
+export * from "./SearchBar"
