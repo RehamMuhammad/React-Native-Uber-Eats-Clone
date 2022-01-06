@@ -6,8 +6,8 @@ import { Styles } from './style'
  const HeaderTabs = () => {
     return (
         <View style={Styles.headerTabsView}>
-          <HeaderButton text="Delievery" />
-          <HeaderButton text="Pickup"/>
+          <HeaderButton text="Delievery" bgColor="black" textColor="white"/>
+          <HeaderButton text="Pickup" bgColor="White" textColor="black"/>
         </View>
     )
 }
