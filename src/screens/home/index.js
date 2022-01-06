@@ -1,11 +1,12 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import {Text, SafeAreaView } from 'react-native'
+import { HeaderTabs } from '../../components'
 
 export default function HomeScreen () {
     return (
-        <View>
-            <Text>Home Screen</Text>
-        </View>
+        <SafeAreaView>
+           <HeaderTabs/>
+        </SafeAreaView>
     )
 }
 
