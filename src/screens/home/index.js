@@ -1,6 +1,6 @@
 import React from 'react'
-import {SafeAreaView, View , Text} from 'react-native'
-import { HeaderTabs, SearchBar, Categories } from '../../components'
+import {SafeAreaView, ScrollView, View} from 'react-native'
+import { HeaderTabs, SearchBar, Categories, RestaurantItem, RestaurantImage } from '../../components'
 
 export default function HomeScreen () {
     return (
@@ -9,9 +9,17 @@ export default function HomeScreen () {
            <HeaderTabs/>
            <SearchBar/>
            </View>
+           <ScrollView showsVerticalScrollIndicator={false}>
            <Categories/>
+           <RestaurantItem/>
+           <RestaurantItem/>
+           <RestaurantItem/>
+           <RestaurantItem/>
+           <RestaurantItem/>
+           <RestaurantItem/>
+           <RestaurantItem/>
 
-           
+           </ScrollView>
         </SafeAreaView>
     )
 }

@@ -6,6 +6,4 @@ export const IMAGES = {
     deals: require('../../assets/images/deals.png'),
     coffee: require('../../assets/images/coffee.png'),
     dessert: require('../../assets/images/desserts.png'),
-
-
 }

@@ -13,11 +13,9 @@ import { items } from './categoriesList'
                <Image source={item.Image} style={{width:50, height:40, resizeMode:"contain"}} />
                <Text style={{fontSize:13, fontWeight:"900"}}>{item.title}</Text>
              </View>
-          ) )}
-       
+          ))}
         </ScrollView>
          </View>
-
     )
 }
 

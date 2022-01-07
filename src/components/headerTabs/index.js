@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { View } from 'react-native'
-import { HeaderButton } from '../HeaderButtons'
+import { HeaderButton } from '..'
 import { Styles } from './style'
 
  const HeaderTabs = () => {
