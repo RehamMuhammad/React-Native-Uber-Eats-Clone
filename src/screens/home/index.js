@@ -1,6 +1,6 @@
 import React from 'react'
-import {SafeAreaView, View } from 'react-native'
-import { HeaderTabs, SearchBar } from '../../components'
+import {SafeAreaView, View , Text} from 'react-native'
+import { HeaderTabs, SearchBar, Categories } from '../../components'
 
 export default function HomeScreen () {
     return (
@@ -9,6 +9,8 @@ export default function HomeScreen () {
            <HeaderTabs/>
            <SearchBar/>
            </View>
+           <Categories/>
+
            
         </SafeAreaView>
     )
