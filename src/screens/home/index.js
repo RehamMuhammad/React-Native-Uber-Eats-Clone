@@ -12,13 +12,6 @@ export default function HomeScreen () {
            <ScrollView showsVerticalScrollIndicator={false}>
            <Categories/>
            <RestaurantItem/>
-           <RestaurantItem/>
-           <RestaurantItem/>
-           <RestaurantItem/>
-           <RestaurantItem/>
-           <RestaurantItem/>
-           <RestaurantItem/>
-
            </ScrollView>
         </SafeAreaView>
     )
